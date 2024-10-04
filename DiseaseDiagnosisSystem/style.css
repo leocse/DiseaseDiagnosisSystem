@@ -1,0 +1,57 @@
+/* Body and background image setup */
+body {
+    background-image: url('doctor-with-globe-in-hand-hd-medical-dff7ahiwc5xsfjm0.jpg'); /* Replace 'your-image-path.jpg' with the actual path of your background image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Fixes the image in place when scrolling */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container styling */
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Adds a semi-transparent background to the content */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Input group and buttons */
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+#symptoms {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.voice-btn, button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.voice-btn:hover, button:hover {
+    background-color: #0056b3;
+}
+
+/* Diagnosis results and history */
+#result, #history {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

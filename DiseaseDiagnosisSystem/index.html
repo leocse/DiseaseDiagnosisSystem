@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Disease Diagnosis System</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Disease Diagnosis System</h1>
+        <label for="symptoms">Enter your symptoms (comma-separated):</label>
+        <div class="input-group">
+            <input type="text" id="symptoms" placeholder="e.g. fever, cough">
+            <button onclick="startVoiceInput()" class="voice-btn">
+                🎙️ Speak
+            </button>
+        </div>
+        <button onclick="diagnose()">Diagnose</button>
+        <div id="result"></div>
+        <button onclick="viewHistory()">View Diagnosis History</button>
+        <div id="history"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
